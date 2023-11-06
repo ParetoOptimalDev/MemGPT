@@ -1,0 +1,30 @@
+warning: The interpretation of store paths arguments ending in `.drv` recently changed. If this command is now failing try again with '/nix/store/crdh11dxidhxajwxalxiwv190s2hb90c-python3.11-tiktoken-0.5.1.drv^*'
+Sourcing python-remove-tests-dir-hook
+Sourcing python-catch-conflicts-hook.sh
+Sourcing python-remove-bin-bytecode-hook.sh
+Sourcing pypa-install-hook
+Using pypaInstallPhase
+Sourcing python-imports-check-hook.sh
+Using pythonImportsCheckPhase
+Sourcing python-namespaces-hook
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+unpacking sources
+unpacking source archive /nix/store/rg7087jfs9x0f342vf5rkcwgdbnn4fqa-tiktoken-0.5.1.tar.gz
+source root is tiktoken-0.5.1
+setting SOURCE_DATE_EPOCH to timestamp 1694565664 of file tiktoken-0.5.1/setup.cfg
+@nix { "action": "setPhase", "phase": "patchPhase" }
+patching sources
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+configuring
+no configure script, doing nothing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+building
+no Makefile or custom buildPhase, doing nothing
+@nix { "action": "setPhase", "phase": "installPhase" }
+installing
+Executing pypaInstallPhase
+/nix/store/af3k93g1qggbdwadryxy1y1b8mgrqcm7-pypa-install-hook/nix-support/setup-hook: line 8: pushd: dist: No such file or directory
+
+Process Shell<1> finished
